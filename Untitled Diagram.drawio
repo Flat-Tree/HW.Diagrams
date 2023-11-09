@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T20:29:22.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tjiPEXEYVn3EUN_4yZE7" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T20:29:48.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i-ltt7ynFrixpPL37O4P" version="22.1.0" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="HW.GitFlow">
-    <mxGraphModel dx="1793" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,7 +184,7 @@
           <mxGeometry x="33" y="206" width="77" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eTHWEqtKEvHJFxcrCYFt-10" value="Stable hotfixes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="33" y="222" width="240" height="20" as="geometry" />
+          <mxGeometry x="31" y="227" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eTHWEqtKEvHJFxcrCYFt-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="485" y="643" width="30" height="30" as="geometry" />
