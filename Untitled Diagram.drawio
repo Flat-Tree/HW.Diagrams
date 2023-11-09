@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T17:12:53.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kLJVnWxSqZACxXaJzhsS" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T17:21:23.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uCcAAI0VvYUUG8CIsLyL" version="22.1.0" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="complex gitflow">
-    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="478" dy="263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,10 +211,10 @@
           <mxGeometry x="432.63" y="246" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eTHWEqtKEvHJFxcrCYFt-2" value="&lt;span style=&quot;color: rgb(12, 13, 14); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;If a major problem is found after release, the fix is developed in a hotfix branch, that is branched off of the master. Those are the only branches that will ever branch off of master.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="519" y="30" width="236.5" height="80" as="geometry" />
+          <mxGeometry x="500.75" y="65" width="236.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eTHWEqtKEvHJFxcrCYFt-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-blue;gradientColor=#EA6B66;strokeColor=#B85450;fillColor=#F8CECC;" vertex="1" parent="1">
-          <mxGeometry x="452.25" y="90" width="30" height="30" as="geometry" />
+          <mxGeometry x="452.25" y="85" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eTHWEqtKEvHJFxcrCYFt-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;endFill=0;jettySize=auto;orthogonalLoop=1;strokeWidth=4;fontSize=15;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uWUnNED6HEl2aK5fdaIb-10" target="eTHWEqtKEvHJFxcrCYFt-4">
           <mxGeometry relative="1" as="geometry">
@@ -227,12 +227,15 @@
         </mxCell>
         <mxCell id="eTHWEqtKEvHJFxcrCYFt-8" value="" style="endArrow=classic;html=1;strokeWidth=1;fontFamily=Courier New;fontColor=#009900;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="211" y="105" as="sourcePoint" />
-            <mxPoint x="291" y="105" as="targetPoint" />
+            <mxPoint x="211" y="99" as="sourcePoint" />
+            <mxPoint x="291" y="99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eTHWEqtKEvHJFxcrCYFt-9" value="stable hotfix" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="83" y="95" width="240" height="20" as="geometry" />
+        <mxCell id="eTHWEqtKEvHJFxcrCYFt-9" value="hotfix" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="83" y="87" width="117" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eTHWEqtKEvHJFxcrCYFt-10" value="Stable hotfixes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="83" y="103" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
